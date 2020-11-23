@@ -1,86 +1,55 @@
-// Dependencies
-// =============================================================================
-const browserSync = require('browser-sync').create();
-const compression = require('compression');
+const liveServer = require('live-server')
+const isSSR = !!process.env.SSR
+const middleware = []
 
-browserSync.init({
-    files: [
-        './dist/**/*.*',
-        './docs/**/*.*'
-    ],
-    ghostMode: {
-        clicks: false,
-        forms : false,
-        scroll: false
+if (isSSR) {
+  const Renderer = require('./packages/docsify-server-renderer/build.js')
+  const renderer = new Renderer({
+    template: `
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>docsify</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="/themes/vue.css" title="vue">
+  </head>
+  <body>
+    <!--inject-app-->
+    <!--inject-config-->
+  <script src="/lib/docsify.js"></script>
+  </body>
+  </html>`,
+    config: {
+      name: 'docsify',
+      repo: 'docsifyjs/docsify',
+      basePath: 'https://docsify.js.org/',
+      loadNavbar: true,
+      loadSidebar: true,
+      subMaxLevel: 3,
+      auto2top: true,
+      alias: {
+        '/de-de/changelog': '/changelog',
+        '/zh-cn/changelog': '/changelog',
+        '/changelog':
+          'https://raw.githubusercontent.com/docsifyjs/docsify/master/CHANGELOG'
+      }
     },
-    open: false,
-    notify: false,
-    cors: true,
-    reloadDebounce: 1000,
-    reloadOnRestart: true,
-    server: {
-        baseDir: [
-            './docs/'
-        ],
-        middleware: [
-            compression()
-        ],
-        routes: {
-            '/CHANGELOG.md': './CHANGELOG.md'
-        }
-    },
-    serveStatic: [
-        './dist/'
-    ],
-    snippetOptions: {
-        rule: {
-            match: /<\/body>/i,
-            fn: function (snippet, match) {
-                // Fix CSS injection for alternate stylesheets
-                const styleSwitchFix = `
-                    <script>
-                        (function() {
-                            if (window.MutationObserver) {
-                                window.browsersyncObserver = new MutationObserver(function(mutationsList) {
-                                    mutationsList.forEach(function(mutation) {
-                                        Array.apply(null, mutation.addedNodes).forEach(function(node) {
-                                            var isLink       = node.tagName === 'LINK';
-                                            var isStylesheet = isLink && (node.getAttribute('rel') || '').indexOf('stylesheet') !== -1;
+    path: './'
+  })
 
-                                            if (isStylesheet) {
-                                                node.disabled = !node.disabled;
-                                                node.disabled = !node.disabled;
-                                            }
-                                        });
-                                    });
-                                });
+  middleware.push(function(req, res, next) {
+    if (/\.(css|js)$/.test(req.url)) {
+      return next()
+    }
+    renderer.renderToString(req.url).then(html => res.end(html))
+  })
+}
 
-                                browsersyncObserver.observe(document.documentElement, {
-                                    childList: true,
-                                    subtree: true
-                                });
-                            }
-                        })();
-                    </script>
-                `;
+const params = {
+  port: 3000,
+  watch: ['lib', 'docs', 'themes'],
+  middleware
+}
 
-                return snippet + styleSwitchFix + match;
-            }
-        }
-    },
-    rewriteRules: [
-        // Replace CDN URLs with local paths
-        {
-            match  : /https:\/\/cdn\.jsdelivr\.net\/npm\/docsify-themeable@[\d.]*\/dist\//g,
-            replace: '/'
-        },
-        {
-            match  : /https:\/\/raw\.githubusercontent\.com\/jhildenbiddle\/docsify-themeable\/master\/CHANGELOG.md/g,
-            replace: '/CHANGELOG.md'
-        },
-        {
-            match  : /https:\/\/cdn\.jsdelivr\.net\/npm\/docsify-themeable@[\d.]*/g,
-            replace: '/js/docsify-themeable.min.js'
-        }
-    ]
-});
+liveServer.start(params)
