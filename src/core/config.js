@@ -13,6 +13,7 @@ export default function(vm) {
       loadNavbar: null,
       homepage: 'README.md',
       coverpage: '',
+      onlyCover: true,
       basePath: '',
       auto2top: false,
       name: '',
