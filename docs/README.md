@@ -26,19 +26,14 @@ Versions are released typically every month.
 | v m2.0.0.17.0.a.s  | Released Tuesday, October 20th, 2020 :x: |
 | v0.0.1.a.s  | Released Monday, October 19th, 2020 :x:  |
 
-| Version | Supported          |
-| yv | f |
-|  m2.0.17 / milestone 2 |   :heavy_check_mark:|
-|  v m2.0.0.17.0.a.  | :x:                |
-|   v0.0.1.a.s      |  eeee         |
+
 
 ## Evolution
 
 
 | Name | Status       |
-
+|---------|--------------------------|
 | Evolution 3 | Not yet released |
-
 |  Evolution 2 | Supported  :heavy_check_mark:|
 |  Milestone 1 | Discontinued :x: |
 
