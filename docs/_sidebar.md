@@ -4,7 +4,5 @@
 
 
 - Commands
-  - [Fun Commands]()
-  - [Moderation Commands]()
-
+- Support
 - [Developer Docs](https://nexos.netlify.app)
