@@ -9,7 +9,8 @@
 - Technically a Clone of Tutle
 - Closed source meaning you can't even invite it to your server lol
 
+
 [Discord Server](https://discord.gg/HcRYd8fp8W)
 [Get Started!](#docsify)
 
-Well
+
