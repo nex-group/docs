@@ -28,8 +28,8 @@ Versions are released typically every month.
 | Version | Supported          |
 | ------- | ------------------ |
 |  m2.0.17 / milestone 2 |   :heavy_check_mark:|
-| < m1.0.16 / milestone 1   | :x:                |
-|    eee     |  eeee         |
+|  v m2.0.0.17.0.a.  | :x:                |
+|   v0.0.1.a.s      |  eeee         |
 
 ## Evolution
 
