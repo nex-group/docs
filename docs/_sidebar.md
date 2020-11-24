@@ -1,6 +1,9 @@
-- Getting started
+- Home
+  - [About](home.md)
 
-  - [Quick start](home.md)
 
+- Commands
+  - [Fun Commands]()
+  - [Moderation Commands]()
 
 - [Developer Docs](https://nexos.netlify.app)
