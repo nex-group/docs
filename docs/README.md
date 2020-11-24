@@ -19,19 +19,25 @@ It is simple, fast, and underrated.
 ## Versions
 Versions are released typically every month.
 
-| Version | Release Date / Support Status     |
+| Version | Supported |
 | 19 e2/e3 **Preview** Release | Supported until December 31st 2020. :heavy_check_mark: |
-|  18 e2 - v.m2.0.0.18.a157s | Supported until Tuesday, December 1st, 2020 :heavy_check_mark:|
-|  v m2.0.0.17.0.a.s  | Released Tuesday, October 20th, 2020 :x: |
+| 18 e2 - v.m2.0.0.18.a157s | Supported until Tuesday, December 1st, 2020 :heavy_check_mark: |
+| v m2.0.0.17.0.a.s  | Released Tuesday, October 20th, 2020 :x: |
 | v0.0.1.a.s  | Released Monday, October 19th, 2020 :x:  |
 
-
+| Version | Supported          |
+| ------- | ------------------ |
+|  m2.0.17 / milestone 2 |   :heavy_check_mark:|
+| < m1.0.16 / milestone 1   | :x:                |
+|    eee     |  eeee         |
 
 ## Evolution
 
 
 | Name | Status       |
+
 | Evolution 3 | Not yet released |
+
 |  Evolution 2 | Supported  :heavy_check_mark:|
 |  Milestone 1 | Discontinued :x: |
 
@@ -46,6 +52,7 @@ To several servers for allowing me to test the bot in their servers.
 
 ### Current Servers nexOS is in
 [Kelly's World Community Server](https://discord.gg/5WazRCt)
+
 uniDev Server **Check the Community Section here.**
 HRD Applications Server **Private Server**
 ### Previous Servers
