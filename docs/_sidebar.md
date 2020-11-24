@@ -1,7 +1,6 @@
 - Getting started
 
-  - [Quick start](quickstart.md)
+  - [Quick start](home.md)
 
 
-- [Awesome docsify](awesome.md)
-- [Changelog](changelog.md)
+- [Developer Docs](https://nexos.netlify.app)
