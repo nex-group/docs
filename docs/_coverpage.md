@@ -1,4 +1,4 @@
-![logo](_media/logo (1).png)
+![logo](_media/logo.svg)
 
 # nexOS <small>V19 Preview</small>
 
