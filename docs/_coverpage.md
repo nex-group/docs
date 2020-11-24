@@ -11,3 +11,5 @@
 
 [Discord Server](https://discord.gg/HcRYd8fp8W)
 [Get Started!](#docsify)
+
+## Easy
