@@ -26,7 +26,7 @@ Versions are released typically every month.
 | v0.0.1.a.s  | Released Monday, October 19th, 2020 :x:  |
 
 | Version | Supported          |
-| ------- | ------------------ |
+| yv | f |
 |  m2.0.17 / milestone 2 |   :heavy_check_mark:|
 |  v m2.0.0.17.0.a.  | :x:                |
 |   v0.0.1.a.s      |  eeee         |
