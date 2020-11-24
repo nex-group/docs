@@ -1,4 +1,5 @@
-# **nexOS** <small>V19 Preview</small>
+# **nexOS** <small>Docs</small>
+## Version V19 Preview
 
 > The underrated bot that gets stomped on by [MEE6](https://mee6.xyz) and [Dank Memer](https://dankmemer.lol)
 - **Simple** and *fast*
