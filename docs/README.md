@@ -20,6 +20,7 @@ It is simple, fast, and underrated.
 Versions are released typically every month.
 
 | Version | Supported |
+|---------|--------------------------|
 | 19 e2/e3 **Preview** Release | Supported until December 31st 2020. :heavy_check_mark: |
 | 18 e2 - v.m2.0.0.18.a157s | Supported until Tuesday, December 1st, 2020 :heavy_check_mark: |
 | v m2.0.0.17.0.a.s  | Released Tuesday, October 20th, 2020 :x: |
