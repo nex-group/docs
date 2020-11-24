@@ -1,6 +1,6 @@
 ![logo](_media/logo.svg)
 
-# nexOS <small>V19 Preview</small>
+# **nexOS** <small>V19 Preview</small>
 
 > The underrated bot that gets stomped on by [MEE6](https://mee6.xyz) and [Dank Memer](https://dankmemer.lol)
 - **Simple** and *fast*
