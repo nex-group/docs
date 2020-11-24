@@ -1,27 +1,30 @@
-## docsify
+## Home
 
-> A magical documentation site generator.
+!> Note that the documentation is incomplete.
 
-## What it is
+## What is it?
 
-docsify generates your documentation website on the fly. Unlike GitBook, it does not generate static html files. Instead, it smartly loads and parses your Markdown files and displays them as a website. To start using it, all you need to do is create an `index.html` and [deploy it on GitHub Pages](deploy.md).
+nexOS is a new bot that always gets defeated by other discord bots.
 
-See the [Quick start](quickstart.md) guide for more details.
+It is simple, fast, and underrated.
 
 ## Features
 
-- No statically built html files
-- Simple and lightweight
-- Smart full-text search plugin
-- Multiple themes
-- Useful plugin API
-- Emoji support
-- Compatible with IE11
-- Support server-side rendering ([example](https://github.com/docsifyjs/docsify-ssr-demo))
+- Reddit-Integrated Commands
+- HTTPS Commands
+- Boring Commands
+- Useless commands
+- Literally nothing (yet!)
 
-## Examples
+## Versions
 
-Check out the [Showcase](https://github.com/docsifyjs/awesome-docsify#showcase) to see docsify in use.
+
+| Version | Supported          |
+| ------- | ------------------ |
+|  m2.0.17 / milestone 2 |   :heavy_check_mark:|
+| < m1.0.16 / milestone 1   | :x:                |
+
+
 
 ## Donate
 
