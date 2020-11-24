@@ -1,12 +1,13 @@
 ![logo](_media/icon.svg)
 
-# docsify <small>4.11.6</small>
+# nexOS <small>V19 Preview</small>
 
-> A magical documentation site generator.
+> The underrated bot that gets stomped on by [MEE6](https://mee6.xyz) and [Dank Memer](https://dankmemer.lol)
+- **Simple** and *fast*
+- Easy to use
+- Depressing af no one uses it
+- Technically a Clone of Tutle
+- Closed source meaning you can't even invite it to your server lol
 
-- Simple and lightweight
-- No statically built html files
-- Multiple themes
-
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Getting Started](#docsify)
+[Discord Server](https://discord.gg/HcRYd8fp8W)
+[Get Started!](#docsify)
