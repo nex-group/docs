@@ -33,8 +33,8 @@ Versions are released typically every month.
 
 | Name | Status       |
 |---------|--------------------------|
-| Evolution 3 | Not yet released |
-|  Evolution 2 | Supported  :heavy_check_mark:|
+| Evolution 3 | Released, Supported :heavy_check_mark: |
+|  Evolution 2 | Transition Period Supported ( Until December 1st ) :heavy_check_mark:|
 |  Milestone 1 | Discontinued :x: |
 
 ## Community
