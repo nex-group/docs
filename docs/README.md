@@ -48,7 +48,7 @@ v19 e3 **Revedend**
 | 19 e3 **EOAE / UNiTE! Update** | Not Released | No support status | 
 | 19 e3 **Twilight Update**  | Not Released | No support status |
 | 19 e3 **Revedend Update**  | v.0.0.19.a392.s | Supported until next System Update. :heavy_check_mark: |
-| 18 e2 - **CH Update** | Discontinued after Update Revedend v.m2.0.0.18.a157s :x:  |
+| 18 e2 - **E+CH Update** | v m2.0.0.17.0.a.s | Discontinued after Update Revedend :x:  |
 
 ## Evolution
 
