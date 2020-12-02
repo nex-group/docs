@@ -27,23 +27,24 @@ It is simple, fast, and underrated.
 
 
 ## Release Versions
-Versions are released typically every month.
+Versions are released typically every month. 
+!> **NOTICE** nexOS21 will be the final Release Version of nexOS. **This has not been finalized and changes may arise in the future.** nexOS will continue to be updated via Build Versions rather then Release Versions.
 
 | Version | Release Date / Supported |
 |---------|--------------------------|
-| 19 e2/e3 - v.m2.0.0.19.a392s | Supported until December 31st 2020. :heavy_check_mark: |
+| 19 e2/e3 - v.m2.0.0.19.a392s | Supported until December 23rd 2020, transitional support ends December 25th. :heavy_check_mark: |
 | 18 e2 - v.m2.0.0.18.a157s | Transition Support ends Wednesday, December 1st, 2020 at 12:05 PM EST :heavy_check_mark:/:x: |
 | v m2.0.0.17.0.a.s  | Released Tuesday, October 20th, 2020 :x: |
 | v0.0.1.a.s  | Released Monday, October 19th, 2020 :x:  |
 
-## System Version
+## Build Version
 The System Version does not influence the release version.
 It is simply to distinguish significant updates (along with the evolution) and makes it unnecessary to change the release version early.
 
-**Latest Release**
+**Latest Build**
 v19 e3 **Revedend**
 
-| Version | Advanced Version | Supported | 
+| Release Version / Build Version | Advanced Version | Supported | 
 |---------|------------|---------------------------------------|
 | 19 e3 **EOAE / UNiTE! Update** | Not Released | No support status | 
 | 19 e3 **Twilight Update**  | Not Released | No support status |
