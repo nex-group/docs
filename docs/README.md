@@ -18,9 +18,10 @@ It is simple, fast, and underrated.
 
 ## Backwards Compatibility 
 
-!> v17 and v18 Release Modules (from any milestone,) may not be compatible with the v19 m3 update. 
-!> This is due to significant changes made to the Module scanDir and depMag, most modules will continue functioning.
-!> Modules requiring scanDir or uses a system to find other commands may not work other than in their container. Example: A module can reach for another module's info in the **same directory.** If the module attempts to locate a command outside the directory (going up in the directory list) then the Module will fail to locate the other Module and will actiavte anti-shutdown safeguards.
+!> **v17 and v18 Release Modules (from any milestone,) may not be compatible with the v19 m3 update.**
+ This is due to significant changes made to the Module scanDir and depMag, most modules will continue functioning.
+ Modules requiring scanDir or uses a system to find other commands may not work other than in their container. 
+ Example: A module can reach for another module's info in the **same directory.** If the module attempts to locate a command outside the directory (going up in the directory list) then the Module will fail to locate the other Module and will actiavte anti-shutdown safeguards.
 
 ?> Please remember to read the developer documentation for any questions.
 
