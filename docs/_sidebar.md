@@ -1,7 +1,3 @@
-- Home
-  - [Start](README.md)
-  - [About](home.md)
-
 
 - Commands
 - Support
